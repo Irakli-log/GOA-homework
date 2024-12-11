@@ -1,4 +1,5 @@
-name = int("whats your name: ")
-surname = int("whats your age")
+num1 = int(input("შეიტანეთ პირველი რიცხვი: "))
+num2 = int(input("შეიტანეთ მეორე რიცხვი: "))
 
-print(name + "" + surname)
+sxvaoba = num1 - num2 
+print("რიცხვების სხვაობა:", sxvaoba)
