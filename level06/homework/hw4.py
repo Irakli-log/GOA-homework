@@ -8,4 +8,3 @@ num3 = input("შენი ასაკი: " )
 num4 = input("შენი მისამართი; ")
 num5 = input("შენი gmail: ")
 
-print

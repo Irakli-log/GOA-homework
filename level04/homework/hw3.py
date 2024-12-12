@@ -1,2 +1,3 @@
-heigt = 1.83 
-print(heigt)
+height = 1.83
+
+print(height)
