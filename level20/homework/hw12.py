@@ -1,7 +1,5 @@
-num = int(input("გთხოვთ შეიყვანოთ რიცხვი: "))
+#12) დაბეჭდეთ ყველა მეხუთე რიცხვი for loop. ის გამოყენებით მაგ.(5,10,15...)
 
-if num <= 10:
-    for i in range(1, num + 1):
-        print(i)
-else:
-    print("რიცხვი მეტია 10-ისგან")
+
+for i in range(5, 51, 5):  
+    print(i)

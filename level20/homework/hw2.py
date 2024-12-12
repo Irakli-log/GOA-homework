@@ -1,6 +1,7 @@
-num = 1
+#2) დაბეჭდეთ რიცხვები while loop - ის საშვალებით რიცხვები 10 დან 1 ამდე
 
-while num <= 20:
-    if num != 5 and num != 15:
-        print(num)
-    num += 1
+i = 10
+
+while i >= 1:
+    print(i)
+    i -= 1 
