@@ -5,7 +5,9 @@
 
 age = int(input("enter your age: "))
 
-if age >= 18:
+if age == 18:
     print("vaa chemi toli yofilxar: ")
+elif age <= 18:
+    print("chemze patara yofilxar samwuxarod: ")
 else:
-    print("chemze pstara yofilxar samwuxaroa: ")
+    print("chemze didi xar ra sakvirvelia ")
