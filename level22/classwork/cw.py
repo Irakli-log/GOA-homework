@@ -7,7 +7,7 @@ for i in range(1, num + 1):
     sum += i 
 
 
-print(f"რიცხვების ჯამი ერთიდან {num}-მდე არის: {sum}")
+print("რიცხვების ჯამი ერთიდან" + str(num) + "-მდე არის:" + str(sum))
 
 
 
