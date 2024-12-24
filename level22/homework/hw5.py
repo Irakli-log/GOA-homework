@@ -7,6 +7,6 @@ num =  int(input("შეიყვანეთ ციფრიs: "))
 sum = 1
 
 for i in range(num):
-    sum = sum * 1
+    sum += sum * i
 
 print(sum)
