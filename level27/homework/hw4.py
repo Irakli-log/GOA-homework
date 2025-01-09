@@ -3,25 +3,22 @@ import random
 
 numbers = list(range(1, 31))
 
-
-chosen_index = random.randint(0, 29)
+number = random.choice(numbers)
 
 while True:
-    user_input = input("შეიყვანეთ რიცხვი 1-დან 30-მდე: ")
+    user = input("Guess the number (from 1 to 30): ")
 
- 
-    if user_input.isdigit():
-        user_input = int(user_input)
+    
+    if not user.isdigit():
+        print("Incorrect, You must enter a number from 1 to 30")
+        continue
+    
+    guess = int(user)
 
-        
-        if user_input < 1 or user_input > 30:
-            print("Incorrect You must enter a number from 1 to 30")
-        
-      
-        elif user_input == numbers[chosen_index]:
-            print("You guessed the number")
-            break
-        else:
-            print("Incorrect Please try again")
+    if guess < 1 or guess > 30:
+        print("Incorrect, You must enter a number from 1 to 30")
+    elif  guess == number :
+        print("You guessed the number!")
+        break
     else:
-        print("Incorrect You must enter a number from 1 to 30")
+        print("Incorrect, Please try again")
